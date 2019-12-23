@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="148dp"
+        android:layout_height="164dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/play"
+        android:onClick="startGame" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="-213dp"
+        android:layout_marginRight="113dp"
+        android:text="Play Game"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0A0909"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by Arham Hasan"
+        android:textColor="#040505"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-350dp"
+        android:includeFontPadding="false"
+        android:keepScreenOn="false"
+        android:lineSpacingExtra="10sp"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="Hit Target. Avoid Birds"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1A1717"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-smallcaps" />
+
+</RelativeLayout>
